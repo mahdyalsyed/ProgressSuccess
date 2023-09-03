@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>templete 7</title>
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <!-- fonts -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+    </head>
+    <body>
+        <!-- home -->
+        <div class="home">
+            <div class="container">
+                <div class="home-content">
+                    <header class="home-header">
+                        <nav class="navbar-home">
+                            <img
+                                src="images/logo.png"
+                                alt="logo"
+                                class="home-img" />
+                            <ul class="list-style home-ul">
+                                <li class="home-li">
+                                    <a href="#">HOME</a>
+                                </li>
+                                <li class="home-li"><a href="#">ABOUT</a></li>
+                                <li class="home-li">
+                                    <a href="#">SERVICES</a>
+                                </li>
+                                <li class="home-li"><a href="#">NEWS</a></li>
+                                <li class="home-li">
+                                    <a href="#">CONTACT US</a>
+                                </li>
+                                <li class="home-li">
+                                    <a
+                                        href="#"
+                                        onclick="openPoupp"
+                                        id="openPoupp"
+                                        >LOGIN</a
+                                    >
+                                </li>
+                            </ul>
+                            <i class="fa fa-search fa-lg home-icon"></i>
+                        </nav>
+                        <div class="Progress" id="Progress">
+                            <div class="Progress-content">
+                                <h3 class="Progress-desc1">
+                                    Progress & Success
+                                </h3>
+                                <h2 class="Progress-desc2">C U R R E N C Y</h2>
+                                <p class="Progress-title">
+                                    It is a long established fact that a reader
+                                    will be distracted by the readable It is a
+                                    long established fact that a reader will be
+                                    distracted by the readable
+                                </p>
+                            </div>
+                            <!-- ./Progress-content -->
+                            <div class="Progress-img">
+                                <img src="images/ban_img.png" alt="ban" />
+                            </div>
+                            <!-- ./Progress-img -->
+                        </div>
+                        <!-- ./Progress -->
+                        <!-- Login Products -->
+                        <section id="my-dropdown">
+                            <div class="form-popup dropdown" id="myForm">
+                                <form
+                                    action="/action_page.php"
+                                    class="form-container">
+                                    <h1>Login</h1>
+
+                                    <label for="email"><b>Email</b></label>
+                                    <input
+                                        type="text"
+                                        placeholder="Enter Email"
+                                        name="email"
+                                        required />
+
+                                    <label for="psw"><b>Password</b></label>
+                                    <input
+                                        type="password"
+                                        placeholder="Enter Password"
+                                        name="psw"
+                                        required />
+
+                                    <button type="submit" class="btn">
+                                        Login
+                                    </button>
+                                    <button
+                                        type="button"
+                                        class="btn cancel"
+                                        onclick="closeForm()">
+                                        Close
+                                    </button>
+                                </form>
+                            </div>
+                        </section>
+                        <!-- ./login Products -->
+                        <div class="discover">
+                            <div class="btn-icon">
+                                <img src="images/btn_h.png" alt="btn" />
+                                <h3>DISCOVER NOW</h3>
+                            </div>
+                            <!-- ./btn-icon -->
+                        </div>
+                        <!-- ./discover -->
+                    </header>
+                </div>
+                <!-- ./home-content -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./home -->
+        <!-- about -->
+        <div class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="images/about.png" alt="about" />
+                    </div>
+                    <!-- ./about-img -->
+                    <div class="about-descrbtion">
+                        <h3 class="about-desc1">ABOUT US</h3>
+                        <h2 class="about-desc2">WELCOME TO OUR DEGITALEX</h2>
+                        <p class="about-title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco
+                        </p>
+                        <button class="about-btn">READ MORE</button>
+                    </div>
+                    <!-- ./about-content -->
+                </div>
+                <!-- ./about-content -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./about -->
+        <!-- SERVICES -->
+        <div class="services">
+            <div class="container">
+                <div class="services-content">
+                    <div class="services-desc">
+                        <h3 class="services-desc1">SERVICES</h3>
+                        <h2 class="services-desc2">
+                            CONSECTETUR ADIPISCING ELIT
+                        </h2>
+                    </div>
+                    <div class="services-description">
+                        <div class="services-title">
+                            <img
+                                src="images/services_icon1.png"
+                                alt="icon1"
+                                class="image1" />
+                            <h2>Safe & Secure</h2>
+                            <p>
+                                ncididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="services-title">
+                            <img
+                                src="images/services_icon2.png"
+                                alt="icon2"
+                                class="image2" />
+                            <h2>Safe & Secure</h2>
+                            <p>
+                                ncididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="services-title">
+                            <img
+                                src="images/services_icon3.png"
+                                alt="icon3"
+                                class="image3" />
+                            <h2>Safe & Secure</h2>
+                            <p>
+                                ncididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                        <div class="services-title">
+                            <img
+                                src="images/services_icon4.png"
+                                alt="icon4"
+                                class="image4" />
+                            <h2>Safe & Secure</h2>
+                            <p>
+                                ncididunt ut labore et dolore magna aliqua. Ut
+                                enim
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+
+                    <!-- ./services-description -->
+                </div>
+                <!-- ./services-content -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./services -->
+        <!-- news -->
+        <!-- news-header -->
+        <div class="news-header">
+            <div class="container">
+                <h4 class="news-desc1">BUY AND SELL BITCOINS</h4>
+                <h2 class="news-desc2">
+                    WHY ARE SO MANY PEOPLE <br />
+                    INVESTING IN DIGITAL
+                </h2>
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./news-header -->
+        <!-- news-footer -->
+        <div class="news-footer">
+            <div class="container">
+                <div class="news-content">
+                    <img src="images/bitcoins.jpg" alt="bitcoines" />
+                    <button class="news-btn">START NOW</button>
+                </div>
+                <!-- news-content -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./news-footer -->
+        <!-- ./news -->
+        <!-- ................................................................ -->
+        <!-- wallet -->
+        <!-- wallet-header -->
+        <div class="wallet-header">
+            <div class="container">
+                <h4 class="wallet-desc1">WALLET</h4>
+                <h2 class="wallet-desc2">
+                    A MOST POWERFUL WALLET USE THIS WALLET FOR NEXT SECURE
+                    TRANSACTION.
+                </h2>
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./news-header -->
+        <!-- news-footer -->
+        <div class="wallet-footer">
+            <div class="container">
+                <div class="wallet-content">
+                    <img src="images/wallet.jpg" alt="bitcoines" />
+                    <button class="wallet-btn">MAKE WALLET</button>
+                </div>
+                <!-- wallet-content -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./wallet-footer -->
+        <!-- ./wallet -->
+        <!-- subcribe -->
+        <div class="subcribe">
+            <div class="container">
+                <div class="subcribe-content">
+                    <div class="subcribe-title">
+                        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page when
+                            looking at its layout. The point of using Lorem
+                            Ipsum is that it has a more-or-less normal
+                            distribution of letters,
+                        </p>
+                    </div>
+                    <!-- ./subcribe-title -->
+                    <div class="subcribe-input">
+                        <input type="email" placeholder="Enter your email" />
+                        <button class="subcribe-btn">subcribe now</button>
+                    </div>
+                    <!-- ./subcribe-input -->
+                </div>
+                <!-- ./subcribe-content -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./subcribe -->
+        <!-- testimonial -->
+        <div class="testimonial">
+            <div class="container">
+                <div class="testimonial-desc">
+                    <h4>TESTIMONIAL</h4>
+                    <h2>WHAT IS SAYS OUR CLIENTS</h2>
+                </div>
+                <!-- ./testimonial-desc -->
+                <div class="testimonial-decrt">
+                    <img src="images/test.png" alt="test" />
+                    <h3>DISTRACTED BY</h3>
+                    <span class="span-line"></span>
+                    <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is
+                        that it has a more-or-less normal distribution of
+                        letters,
+                    </p>
+                    <div class="testimonial-spancolor">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="color-defrent"></span>
+                    </div>
+                </div>
+                <!-- ./testimonial-decrt -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./testimonial -->
+        <!-- contact us -->
+        <div class="contact us">
+            <div class="container">
+                <div class="contact-desc">
+                    <h3>CONTACT US</h3>
+                    <h2>REQESUTE A CALL BACK</h2>
+                </div>
+                <!-- ./contact-desc -->
+                <div class="contact-input">
+                    <input type="text" placeholder="Name" />
+                    <input type="number" placeholder="Phone Number" />
+                    <input type="email" placeholder="Email Addres" />
+                    <div class="contact-text">
+                        <textarea
+                            name="Massege"
+                            id=""
+                            cols="30"
+                            rows="10"
+                            placeholder="Massege"></textarea>
+                    </div>
+                    <!-- .contact-text -->
+                    <div class="contact-btn">
+                        <button>SEND</button>
+                    </div>
+                </div>
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./contact us -->
+        <div class="site-map">
+            <div class="container">
+                <img src="images/map-(1).png" alt="map" />
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./site-map -->
+        <div class="login">
+            <div class="container">
+                <div class="login-footer">
+                    <div class="digital">
+                        <img src="images/loogo2.png" alt="logo" />
+                        <p>
+                            reader will be distracted by the readable content of
+                            a page when looking at its layout. The point of
+                            using Lorem Ipsum is that it has a more-or-less
+                            normal di
+                        </p>
+                    </div>
+                    <!-- ./digital -->
+                    <div class="quick-link">
+                        <h2>QUICK LINK</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-chevron-right"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-chevron-right"></i>
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-chevron-right"></i>
+                                    Currency
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-chevron-right"></i>
+                                    Exchange
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-chevron-right"></i>
+                                    Subscribe
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ./quick-link -->
+                    <div class="quick-instgram">
+                        <h2>INSTAGRAM</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
+                        </p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ./quick-instgram -->
+                    <div class="login-contact">
+                        <h2>CONTACT US</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#"
+                                    ><i class="fa fa-map-marker fa-2x"></i>
+                                    Reader will be dis
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fa fa-envelope fa-2x"></i>
+                                    demo@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i
+                                        class="fa fa-volume-control-phone fa-2x"></i>
+                                    +201 146232539
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ./login-contact -->
+                </div>
+                <div class="footer">
+                    <span></span>
+                    <p>
+                        Copyright 2019 All Right Reserved By
+                        <a href="#">Free html Templates</a>
+                    </p>
+                </div>
+                <!-- ./login-footer -->
+            </div>
+            <!-- ./container -->
+        </div>
+        <!-- ./login -->
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
